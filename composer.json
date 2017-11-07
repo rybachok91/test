@@ -1,0 +1,9 @@
+{
+  "require": {
+    "components/jquery": "3.2.1",
+    "smarty/smarty": "3.1.28"
+  },
+  "autoload": {
+    "files": ["scripts/functions.php"]
+  }
+}

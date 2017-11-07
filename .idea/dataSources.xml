@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="RUBACHOK" uuid="ca65acf8-d71c-4c69-b7c0-8686cedf4a55">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@NEWCONTACTBASE_DEV</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="/etc" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="rybachok" uuid="6f5a7d56-6105-464d-9bb8-6f2a72192ffa">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@localhost:1521:orcl</jdbc-url>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
