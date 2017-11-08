@@ -8,7 +8,6 @@ class ComposerStaticInitb56d248844253b8fb7611cb20ecdf1d9
 {
     public static $files = array (
         '149e19e0692d34ccbe74eae86f677dc8' => __DIR__ . '/../..' . '/scripts/functions.php',
-        '45ce2a2e0068f3550c3a3919c51caf2c' => __DIR__ . '/../..' . '/smarty.php',
     );
 
     public static $classMap = array (
